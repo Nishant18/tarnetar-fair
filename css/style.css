@@ -1,0 +1,35 @@
+/* Nav Dropdown on mouse hover */
+@media only screen and (min-width: 768px) {
+    .dropdown:hover .dropdown-menu {
+        display: block;
+        background-position: center;
+    }
+}
+.navbar-brand {    
+    text-transform: uppercase
+  }
+  
+  .navbar .nav-item:not(:last-child) {
+    margin-right: 20px;
+  }
+  
+  .dropdown-toggle::after {
+     transition: transform 0.15s linear; 
+  }
+  
+  .show.dropdown .dropdown-toggle::after {
+    transform: translateY(3px);
+  }
+  
+  .dropdown-menu {
+    margin-top: 0;
+  }
+
+
+  #carousel-img {
+    height: 15rem;
+}
+
+    #evetcards{
+        
+}
